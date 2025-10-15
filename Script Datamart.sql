@@ -1,10 +1,3 @@
-create table dimItem(
-	ItemID INT primary KEY,
-	Item VARCHAR(75),
-	TipoItem VARCHAR(255),
-	Categoria VARCHAR(50)
-);
-
 create table dimProveedor(
 	ProveedorID SERIAL primary KEY,
 	Proveedor VARCHAR(75),
