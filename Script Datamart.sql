@@ -1,12 +1,3 @@
-create table dimAgencia(
-	AgenciaID INT primary KEY,
-	Agencia VARCHAR(75),
-	Direccion VARCHAR(255),
-	Distrito VARCHAR(50),
-	Provincia VARCHAR(50),
-	Departamento VARCHAR(30)
-);
-
 create table dimItem(
 	ItemID INT primary KEY,
 	Item VARCHAR(75),
